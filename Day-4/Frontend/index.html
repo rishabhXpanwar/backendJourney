@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get and Post</title>
+</head>
+<body>
+    <h3>Get Request</h3>
+    <form method="get" action="http://localhost:8080/register">
+        <!-- isme humne /register islye nhi likha q ke locally jo request hai vo file protocol pr jati hai pr hume 
+        chaiye ke vo http pr jaye isliye pura likhna pda -->
+        <input placeholder="username" name="name" type="text" />
+        <input placeholder="password" name="password" type="password"/>
+        <button>Submit</button>
+        </form>
+
+        <h3>POST Request</h3>
+    <form method="post" action="http://localhost:8080/register">
+        <input placeholder="username" name="name" type="text" />
+        <input placeholder="password" name="password" type="password"/>
+        <button>Submit</button>
+        </form>
+        <script></script>
+</body>
+</html>
